@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CBA5E9A1BF01D6C00B4E841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA5E991BF01D6C00B4E841 /* AppDelegate.swift */; };
+		1CBA5E9C1BF01D6C00B4E841 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA5E9B1BF01D6C00B4E841 /* MasterViewController.swift */; };
+		1CBA5E9E1BF01D6C00B4E841 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA5E9D1BF01D6C00B4E841 /* DetailViewController.swift */; };
+		1CBA5EA11BF01D6C00B4E841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA5E9F1BF01D6C00B4E841 /* Main.storyboard */; };
+		1CBA5EA31BF01D6C00B4E841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA5EA21BF01D6C00B4E841 /* Assets.xcassets */; };
+		1CBA5EA61BF01D6C00B4E841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA5EA41BF01D6C00B4E841 /* LaunchScreen.storyboard */; };
+		1CBA5EB11BF01D6C00B4E841 /* SkillDenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA5EB01BF01D6C00B4E841 /* SkillDenTests.swift */; };
+		1CBA5EBC1BF01D6C00B4E841 /* SkillDenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA5EBB1BF01D6C00B4E841 /* SkillDenUITests.swift */; };
+		1CBA5ECB1BF01EA000B4E841 /* blurredlights.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA5ECA1BF01EA000B4E841 /* blurredlights.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CBA5EAD1BF01D6C00B4E841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBA5E8E1BF01D6C00B4E841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBA5E951BF01D6C00B4E841;
+			remoteInfo = SkillDen;
+		};
+		1CBA5EB81BF01D6C00B4E841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBA5E8E1BF01D6C00B4E841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBA5E951BF01D6C00B4E841;
+			remoteInfo = SkillDen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CBA5E961BF01D6C00B4E841 /* SkillDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBA5E991BF01D6C00B4E841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CBA5E9B1BF01D6C00B4E841 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		1CBA5E9D1BF01D6C00B4E841 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1CBA5EA01BF01D6C00B4E841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CBA5EA21BF01D6C00B4E841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CBA5EA51BF01D6C00B4E841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CBA5EA71BF01D6C00B4E841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBA5EAC1BF01D6C00B4E841 /* SkillDenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillDenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBA5EB01BF01D6C00B4E841 /* SkillDenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDenTests.swift; sourceTree = "<group>"; };
+		1CBA5EB21BF01D6C00B4E841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBA5EB71BF01D6C00B4E841 /* SkillDenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillDenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBA5EBB1BF01D6C00B4E841 /* SkillDenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDenUITests.swift; sourceTree = "<group>"; };
+		1CBA5EBD1BF01D6C00B4E841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBA5ECA1BF01EA000B4E841 /* blurredlights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurredlights.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CBA5E931BF01D6C00B4E841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EA91BF01D6C00B4E841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EB41BF01D6C00B4E841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBA5E8D1BF01D6C00B4E841 = {
+			isa = PBXGroup;
+			children = (
+				1CBA5E981BF01D6C00B4E841 /* SkillDen */,
+				1CBA5EAF1BF01D6C00B4E841 /* SkillDenTests */,
+				1CBA5EBA1BF01D6C00B4E841 /* SkillDenUITests */,
+				1CBA5E971BF01D6C00B4E841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CBA5E971BF01D6C00B4E841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5E961BF01D6C00B4E841 /* SkillDen.app */,
+				1CBA5EAC1BF01D6C00B4E841 /* SkillDenTests.xctest */,
+				1CBA5EB71BF01D6C00B4E841 /* SkillDenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CBA5E981BF01D6C00B4E841 /* SkillDen */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5E991BF01D6C00B4E841 /* AppDelegate.swift */,
+				1CBA5E9B1BF01D6C00B4E841 /* MasterViewController.swift */,
+				1CBA5E9D1BF01D6C00B4E841 /* DetailViewController.swift */,
+				1CBA5E9F1BF01D6C00B4E841 /* Main.storyboard */,
+				1CBA5EC91BF01DC100B4E841 /* Images */,
+				1CBA5EA21BF01D6C00B4E841 /* Assets.xcassets */,
+				1CBA5EA41BF01D6C00B4E841 /* LaunchScreen.storyboard */,
+				1CBA5EA71BF01D6C00B4E841 /* Info.plist */,
+			);
+			path = SkillDen;
+			sourceTree = "<group>";
+		};
+		1CBA5EAF1BF01D6C00B4E841 /* SkillDenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5EB01BF01D6C00B4E841 /* SkillDenTests.swift */,
+				1CBA5EB21BF01D6C00B4E841 /* Info.plist */,
+			);
+			path = SkillDenTests;
+			sourceTree = "<group>";
+		};
+		1CBA5EBA1BF01D6C00B4E841 /* SkillDenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5EBB1BF01D6C00B4E841 /* SkillDenUITests.swift */,
+				1CBA5EBD1BF01D6C00B4E841 /* Info.plist */,
+			);
+			path = SkillDenUITests;
+			sourceTree = "<group>";
+		};
+		1CBA5EC91BF01DC100B4E841 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5ECA1BF01EA000B4E841 /* blurredlights.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBA5E951BF01D6C00B4E841 /* SkillDen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBA5EC01BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDen" */;
+			buildPhases = (
+				1CBA5E921BF01D6C00B4E841 /* Sources */,
+				1CBA5E931BF01D6C00B4E841 /* Frameworks */,
+				1CBA5E941BF01D6C00B4E841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillDen;
+			productName = SkillDen;
+			productReference = 1CBA5E961BF01D6C00B4E841 /* SkillDen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CBA5EAB1BF01D6C00B4E841 /* SkillDenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBA5EC31BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDenTests" */;
+			buildPhases = (
+				1CBA5EA81BF01D6C00B4E841 /* Sources */,
+				1CBA5EA91BF01D6C00B4E841 /* Frameworks */,
+				1CBA5EAA1BF01D6C00B4E841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBA5EAE1BF01D6C00B4E841 /* PBXTargetDependency */,
+			);
+			name = SkillDenTests;
+			productName = SkillDenTests;
+			productReference = 1CBA5EAC1BF01D6C00B4E841 /* SkillDenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CBA5EB61BF01D6C00B4E841 /* SkillDenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBA5EC61BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDenUITests" */;
+			buildPhases = (
+				1CBA5EB31BF01D6C00B4E841 /* Sources */,
+				1CBA5EB41BF01D6C00B4E841 /* Frameworks */,
+				1CBA5EB51BF01D6C00B4E841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBA5EB91BF01D6C00B4E841 /* PBXTargetDependency */,
+			);
+			name = SkillDenUITests;
+			productName = SkillDenUITests;
+			productReference = 1CBA5EB71BF01D6C00B4E841 /* SkillDenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CBA5E8E1BF01D6C00B4E841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "shaun Haque";
+				TargetAttributes = {
+					1CBA5E951BF01D6C00B4E841 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QPUL3KUF52;
+					};
+					1CBA5EAB1BF01D6C00B4E841 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QPUL3KUF52;
+						TestTargetID = 1CBA5E951BF01D6C00B4E841;
+					};
+					1CBA5EB61BF01D6C00B4E841 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QPUL3KUF52;
+						TestTargetID = 1CBA5E951BF01D6C00B4E841;
+					};
+				};
+			};
+			buildConfigurationList = 1CBA5E911BF01D6C00B4E841 /* Build configuration list for PBXProject "SkillDen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CBA5E8D1BF01D6C00B4E841;
+			productRefGroup = 1CBA5E971BF01D6C00B4E841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBA5E951BF01D6C00B4E841 /* SkillDen */,
+				1CBA5EAB1BF01D6C00B4E841 /* SkillDenTests */,
+				1CBA5EB61BF01D6C00B4E841 /* SkillDenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CBA5E941BF01D6C00B4E841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBA5EA61BF01D6C00B4E841 /* LaunchScreen.storyboard in Resources */,
+				1CBA5EA31BF01D6C00B4E841 /* Assets.xcassets in Resources */,
+				1CBA5EA11BF01D6C00B4E841 /* Main.storyboard in Resources */,
+				1CBA5ECB1BF01EA000B4E841 /* blurredlights.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EAA1BF01D6C00B4E841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EB51BF01D6C00B4E841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CBA5E921BF01D6C00B4E841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBA5E9E1BF01D6C00B4E841 /* DetailViewController.swift in Sources */,
+				1CBA5E9C1BF01D6C00B4E841 /* MasterViewController.swift in Sources */,
+				1CBA5E9A1BF01D6C00B4E841 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EA81BF01D6C00B4E841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBA5EB11BF01D6C00B4E841 /* SkillDenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBA5EB31BF01D6C00B4E841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBA5EBC1BF01D6C00B4E841 /* SkillDenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CBA5EAE1BF01D6C00B4E841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBA5E951BF01D6C00B4E841 /* SkillDen */;
+			targetProxy = 1CBA5EAD1BF01D6C00B4E841 /* PBXContainerItemProxy */;
+		};
+		1CBA5EB91BF01D6C00B4E841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBA5E951BF01D6C00B4E841 /* SkillDen */;
+			targetProxy = 1CBA5EB81BF01D6C00B4E841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CBA5E9F1BF01D6C00B4E841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBA5EA01BF01D6C00B4E841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CBA5EA41BF01D6C00B4E841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBA5EA51BF01D6C00B4E841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CBA5EBE1BF01D6C00B4E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CBA5EBF1BF01D6C00B4E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CBA5EC11BF01D6C00B4E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkillDen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CBA5EC21BF01D6C00B4E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkillDen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CBA5EC41BF01D6C00B4E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillDenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillDen.app/SkillDen";
+			};
+			name = Debug;
+		};
+		1CBA5EC51BF01D6C00B4E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillDenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillDen.app/SkillDen";
+			};
+			name = Release;
+		};
+		1CBA5EC71BF01D6C00B4E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkillDenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkillDen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1CBA5EC81BF01D6C00B4E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkillDenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.SkillDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkillDen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CBA5E911BF01D6C00B4E841 /* Build configuration list for PBXProject "SkillDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBA5EBE1BF01D6C00B4E841 /* Debug */,
+				1CBA5EBF1BF01D6C00B4E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBA5EC01BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBA5EC11BF01D6C00B4E841 /* Debug */,
+				1CBA5EC21BF01D6C00B4E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CBA5EC31BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBA5EC41BF01D6C00B4E841 /* Debug */,
+				1CBA5EC51BF01D6C00B4E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CBA5EC61BF01D6C00B4E841 /* Build configuration list for PBXNativeTarget "SkillDenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBA5EC71BF01D6C00B4E841 /* Debug */,
+				1CBA5EC81BF01D6C00B4E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CBA5E8E1BF01D6C00B4E841 /* Project object */;
+}
